@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AjaxNightNew.Migrations
 {
     [DbContext(typeof(AjaxContext))]
-    [Migration("20250207085135_mig1")]
+    [Migration("20250207163832_mig1")]
     partial class mig1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

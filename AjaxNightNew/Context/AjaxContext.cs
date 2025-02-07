@@ -7,7 +7,7 @@ namespace AjaxNightNew.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=Anıl\\SQLEXPRESS;initial Catalog=AjaxNightDb;integrated Security=true");
+            optionsBuilder.UseSqlServer("Server=ANıL;initial Catalog=AjaxNightDb;integrated Security=true");
         }
 
         public DbSet<Customer> Customers { get; set; }
